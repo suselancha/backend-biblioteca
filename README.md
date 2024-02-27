@@ -26,6 +26,7 @@
 
 ## POSTMAN
 - Archivo .json para importar desde Postman y probar la ApiRest
+- Ubicado en la carpeta "instaladores"
 
 ## Observaciones
 - Definición de rutas para ApiRest, con o sin autenticación
