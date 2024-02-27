@@ -40,8 +40,6 @@ Route::group([
     Route::get('staffs/config', [StaffsController::class, "config"]);
     Route::resource('staffs', StaffsController::class);
     Route::resource('books', BooksController::class);
-    
-    
 });
 
 
