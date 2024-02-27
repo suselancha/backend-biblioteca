@@ -8,7 +8,7 @@
 </p>
 
 ## Instalación
-- Crear directorio para sistema de backend: mkdir back-demo
+- En el directorio de apache, crear carpeta para sistema de backend: mkdir back-demo
 - Ingresar al directorio: cd back-demo
 - Iniciar repositorio: git init
 - Ejecutar: git branch -M main
@@ -23,3 +23,17 @@
 - Ejecutar: php artisan view:cache
 - Importar la base de datos a mysql con el archivo "db_biblioteca.sql" desde la carpeta "instaladores"
 - Correr el servidor: php artisan serve
+
+## POSTMAN
+- Archivo .json para importar desde Postman y probar la ApiRest
+
+## Observaciones
+- Definición de rutas para ApiRest, con o sin autenticación
+- Uso del paquete Laravel Permission
+- Uso de autenticacion via JWT (JSON Web Token)
+- Habiliracion de CORS (Cross-Origin Resource Sharing.)
+- Uso de migraciones y seeders
+- Uso de controladores, ApiResponse (Responses) y validaciones (Request)
+- Uso de controladores: CRUD
+- Uso de recursos y colecciones (Resources)
+- Definición de modelos: relaciones, scopeFilterAdvance
